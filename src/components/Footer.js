@@ -1,45 +1,82 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css"; // Ensure Bootstrap is imported
 
-function Footer () {
-    return(
-        <div class="container ">
-        <footer class="py-5">
-          <div class="row">
-            <div class="col-4 col-md-2 mb-3">
-              <h5 className="text-light">Section</h5>
-              <ul class="text-light nav flex-column">
-                <li class="text-light nav-item mb-2"><a href="/" class="nav-link p-0">Home</a></li>
-                <li class="text-light nav-item mb-2"><a href="#" class="nav-link p-0">About</a></li>
-                <li class="text-light nav-item mb-2"><a href="#" class="nav-link p-0">Pricing</a></li>
-                <li class="text-light nav-item mb-2"><a href="#" class="nav-link p-0">FAQs</a></li>
-                <li class="text-light nav-item mb-2"><a href="#" class="nav-link p-0">Contact</a></li>
-              </ul>
-            </div>
-      
-      
-            <div class="col-md-3 offset-md-2 mb-3">
-              <form>
-                <h5 className="text-light">Subscribe to our newsletter</h5>
-                <p class="text-light">Monthly digest of what's new and exciting from us.</p>
-                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                  <label for="newsletter1" class="visually-hidden">Email address</label>
-                  <input id="newsletter1" type="text" class="form-control" placeholder="Email address"></input>
-                  <button class="btn btn-primary" type="button">Subscribe</button>
-                </div>
-              </form>
-            </div>
-          </div>
-      
-          <div class="text-light d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-            <p>&copy; 2024 Company, Inc. All rights reserved.</p>
-            <ul class="text-light list-unstyled d-flex">
-              <li class="text-bg-light ms-3 rounded-2"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use href="#twitter"/></svg></a></li>
-              <li class="text-bg-light rounded-2 ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use href="#instagram"/></svg></a></li>
-              <li class="text-bg-light rounded-2 ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use href="#facebook"/></svg></a></li>
+function Footer() {
+  return (
+    <div className="container">
+      <footer className="py-5">
+        <div className="row">
+          {/* Section Links */}
+          <div className="col-7 col-md-4 mb-3 m-3">
+            <h5 className="text-light">Section</h5>
+            <ul className="nav flex-column">
+              <li className="nav-item mb-2">
+                <a href="/" className="nav-link p-0 text-light">Home</a>
+              </li>
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0 text-light">About</a>
+              </li>
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0 text-light">Pricing</a>
+              </li>
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0 text-light">FAQs</a>
+              </li>
+              <li className="nav-item mb-2">
+                <a href="#" className="nav-link p-0 text-light">Contact</a>
+              </li>
             </ul>
           </div>
-        </footer>
-      </div>
-    )
+
+          {/* Newsletter Subscription */}
+          <div className="col-8 col-md-4 col-sm-4 offset-md-2 mb-3 m-3">
+            <form>
+              <h5 className="text-light">Subscribe to our newsletter</h5>
+              <p className="text-light">
+                Monthly digest of what's new and exciting from us.
+              </p>
+              <div className="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label htmlFor="newsletter1" className="visually-hidden">
+                  Email address
+                </label>
+                <input
+                  id="newsletter1"
+                  type="text"
+                  className="form-control"
+                  placeholder="Email address"
+                />
+                <button className="btn btn-primary" type="button">
+                  Subscribe
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        {/* Footer Bottom */}
+        <div className="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top text-light">
+          <p>&copy; 2024 Company, Inc. All rights reserved.</p>
+          <ul className="list-unstyled d-flex">
+            <li className="ms-3">
+              <a className="text-light" href="#">
+                <i className="bi bi-twitter fs-4"></i>
+              </a>
+            </li>
+            <li className="ms-3">
+              <a className="text-light" href="#">
+                <i className="bi bi-instagram fs-4"></i>
+              </a>
+            </li>
+            <li className="ms-3">
+              <a className="text-light" href="#">
+                <i className="bi bi-facebook fs-4"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  );
 }
-export default Footer
+
+export default Footer;
