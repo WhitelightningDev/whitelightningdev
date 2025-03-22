@@ -1,5 +1,5 @@
 <!-- Main Section -->
-<div #mainSection class="container-fluid  cover-container bg-dark text-light d-flex w-100 h-100 p-3 mx-auto flex-column">
+<div #mainSection class="container-fluid border-bottom cover-container bg-dark text-light d-flex w-100 h-100 p-3 mx-auto flex-column">
   <main class="row align-items-center w-100">
     <div class="col-lg-6 col-md-6 text-center text-md-start p-3" *ngIf="isVisible" @slideText>
       <h1 class="ms-3">Hi, I'm Daniel!</h1>
@@ -15,7 +15,7 @@
 </div>
 
 <!-- About Me Section -->
-<div #aboutSection class="container-fluid cover-container bg-dark text-light d-flex p-3 mx-auto flex-column">
+<div #aboutSection class="container-fluid border-bottom cover-container bg-dark text-light d-flex p-3 mx-auto flex-column">
   <main class="row align-items-center w-100">
     <div class="col-lg-5 col-md-4 text-center text-md-start p-3" *ngIf="isAboutVisible" @AboutText>
       <img src="/whitelightning-500x500.png" width="100px" class="ms-3 rounded-3 mb-2">
@@ -57,7 +57,7 @@
   </main>
 </div>
 
-<div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+<div id="myCarousel" class="carousel mt-5 slide mb-6" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -67,6 +67,8 @@
     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="8" aria-label="Slide 9"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="9" aria-label="Slide 10"></button>
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -149,6 +151,15 @@
         <div class="carousel-caption text-end">
           <h1>Wordpress</h1>
           <p> CMS for building and managing websites easily.</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="carouselImage ms-5 rounded-4" width="20%" height="20%" src="/mongodb.png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+      <div class="container">
+        <div class="carousel-caption text-end">
+          <h1>MongoDB</h1>
+          <p>NoSQL database for scalable and flexible data storage.</p>
         </div>
       </div>
     </div>
