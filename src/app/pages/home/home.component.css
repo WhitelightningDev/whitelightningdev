@@ -1,0 +1,61 @@
+
+
+.cover-container {
+  position: relative;
+  color: white;
+}
+
+.cover-container main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+}
+
+.cover-container footer {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+/* Ensuring the background image is full screen */
+.cover-container {
+  min-height: 100vh;
+}
+
+.cover-container::after {
+  content: '';
+  background-color: #212529; /* Semi-transparent overlay */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+/* Prevent flickering before Angular animations kick in */
+.container-fluid {
+  opacity: 0;
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.carouselImage{
+  position: relative;
+  left: 10%;
+}
+

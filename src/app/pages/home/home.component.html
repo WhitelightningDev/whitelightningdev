@@ -1,0 +1,164 @@
+<!-- Main Section -->
+<div #mainSection class="container-fluid  cover-container bg-dark text-light d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <main class="row align-items-center w-100">
+    <div class="col-lg-6 col-md-6 text-center text-md-start p-3" *ngIf="isVisible" @slideText>
+      <h1 class="ms-3">Hi, I'm Daniel!</h1>
+      <p class="ms-3 lead">
+        I'm a passionate full-stack developer with extensive experience in building responsive and scalable web applications. I specialize in both front-end and back-end development.
+      </p>
+    </div>
+
+    <div class="col-12 col-md-6 text-center p-3" *ngIf="isVisible" @slideImage>
+      <img src="/me.jpg" width="400px" alt="Your Image" class="rounded-circle img-fluid" style="max-width: 100%; height: auto;">
+    </div>
+  </main>
+</div>
+
+<!-- About Me Section -->
+<div #aboutSection class="container-fluid cover-container bg-dark text-light d-flex p-3 mx-auto flex-column">
+  <main class="row align-items-center w-100">
+    <div class="col-lg-5 col-md-4 text-center text-md-start p-3" *ngIf="isAboutVisible" @AboutText>
+      <img src="/whitelightning-500x500.png" width="100px" class="ms-3 rounded-3 mb-2">
+      <h1 class="ms-3">About me</h1>
+      <p class="ms-3 lead">
+        I'm a passionate full-stack developer with extensive experience in building responsive and scalable web applications. I specialize in both front-end and back-end development.
+      </p>
+    </div>
+
+    <div class="col-12 col-md-6 text-center p-3" *ngIf="isAboutVisible" @slidecard>
+      <mat-card class="mb-3" appearance="outlined">
+        <mat-card-content>
+          <mat-card-title class="text-dark text-start mb-2 border-bottom">
+            View My projects
+          </mat-card-title>
+          <mat-card-subtitle class="text-start">
+            View all the projects that i have
+            created, some for actual companies and some are ideas i have brought to life
+          </mat-card-subtitle>
+          <a href="">
+            <button class="align-self-end" style="text-decoration: underline;" mat-button >View Projects
+            </button>
+          </a>
+        </mat-card-content>
+      </mat-card>
+
+      <mat-card appearance="outlined">
+        <mat-card-content>
+          <mat-card-title class="text-dark border-bottom text-start mb-2">
+            Read more about me
+          </mat-card-title>
+          <mat-card-subtitle class="text-start">
+            If you like to know more about me click the button below
+          </mat-card-subtitle>
+          <button mat-button style="text-decoration: underline;" >Read More</button>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </main>
+</div>
+
+<div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="carouselImage ms-5" width="20%" height="20%" src="/angular.png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+      <div class="container">
+        <div class="carousel-caption text-end">
+          <h1>Angular</h1>
+          <p class="opacity-75">ypeScript-based frontend framework for building web apps.</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="carouselImage ms-5" width="20%" height="20%" src="/react.png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+      <div class="container">
+        <div class="carousel-caption text-end">
+          <h1>React</h1>
+          <p>Frontend JavaScript library for building dynamic user interfaces.</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="carouselImage ms-5" width="20%" height="20%" src="/java.png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+      <div class="container">
+        <div class="carousel-caption text-end">
+          <h1>Java</h1>
+          <p>Versatile, object-oriented language for web, mobile, and enterprise applications.</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="carouselImage ms-5" width="20%" height="20%" src="/docker.png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+      <div class="container">
+        <div class="carousel-caption text-end">
+          <h1>Docker Containers</h1>
+          <p>Containerization platform for deploying applications efficiently.</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="carouselImage ms-5" width="20%" height="20%" src="/sql.png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+      <div class="container">
+        <div class="carousel-caption text-end">
+          <h1>SQL Server</h1>
+          <p>Language for managing and querying relational databases.</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="carouselImage ms-5" width="20%" height="20%" src="/android.png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+      <div class="container">
+        <div class="carousel-caption text-end">
+          <h1>Android Development</h1>
+          <p>Creating mobile apps using Java/Kotlin for Android devices.</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="carouselImage ms-5" width="20%" height="20%" src="/php.png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+      <div class="container">
+        <div class="carousel-caption text-end">
+          <h1>PHP</h1>
+          <p>Server-side scripting language for dynamic web development.</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="carouselImage ms-5" width="36%" height="36%" src="/laravel.png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+      <div class="container">
+        <div class="carousel-caption text-end">
+          <h1>Laravel</h1>
+          <p>PHP framework for building modern web applications.</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="carouselImage ms-5" width="20%" height="20%" src="/wordpress.png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+      <div class="container">
+        <div class="carousel-caption text-end">
+          <h1>Wordpress</h1>
+          <p> CMS for building and managing websites easily.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
