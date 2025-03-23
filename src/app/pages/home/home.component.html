@@ -1,175 +1,316 @@
-<!-- Main Section -->
-<div #mainSection class="container-fluid border-bottom cover-container bg-dark text-light d-flex w-100 h-100 p-3 mx-auto flex-column">
-  <main class="row align-items-center w-100">
-    <div class="col-lg-6 col-md-6 text-center text-md-start p-3" *ngIf="isVisible" @slideText>
-      <h1 class="ms-3">Hi, I'm Daniel!</h1>
-      <p class="ms-3 lead">
-        I'm a passionate full-stack developer with extensive experience in building responsive and scalable web applications. I specialize in both front-end and back-end development.
-      </p>
-    </div>
-
-    <div class="col-12 col-md-6 text-center p-3" *ngIf="isVisible" @slideImage>
-      <img src="/me.jpg" width="400px" alt="Your Image" class="rounded-circle img-fluid" style="max-width: 100%; height: auto;">
-    </div>
-  </main>
-</div>
-
-<!-- About Me Section -->
-<div #aboutSection class="container-fluid border-bottom cover-container bg-dark text-light d-flex p-3 mx-auto flex-column">
-  <main class="row align-items-center w-100">
-    <div class="col-lg-5 col-md-4 text-center text-md-start p-3" *ngIf="isAboutVisible" @AboutText>
-      <img src="/whitelightning-500x500.png" width="100px" class="ms-3 rounded-3 mb-2">
-      <h1 class="ms-3">About me</h1>
-      <p class="ms-3 lead">
-        I'm a passionate full-stack developer with extensive experience in building responsive and scalable web applications. I specialize in both front-end and back-end development.
-      </p>
-    </div>
-
-    <div class="col-12 col-md-6 text-center p-3" *ngIf="isAboutVisible" @slidecard>
-      <mat-card class="mb-3" appearance="outlined">
-        <mat-card-content>
-          <mat-card-title class="text-dark text-start mb-2 border-bottom">
-            View My projects
-          </mat-card-title>
-          <mat-card-subtitle class="text-start">
-            View all the projects that i have
-            created, some for actual companies and some are ideas i have brought to life
-          </mat-card-subtitle>
-          <a href="">
-            <button class="align-self-end" style="text-decoration: underline;" mat-button >View Projects
-            </button>
-          </a>
-        </mat-card-content>
-      </mat-card>
-
-      <mat-card appearance="outlined">
-        <mat-card-content>
-          <mat-card-title class="text-dark border-bottom text-start mb-2">
-            Read more about me
-          </mat-card-title>
-          <mat-card-subtitle class="text-start">
-            If you like to know more about me click the button below
-          </mat-card-subtitle>
-          <button mat-button style="text-decoration: underline;" >Read More</button>
-        </mat-card-content>
-      </mat-card>
-    </div>
-  </main>
-</div>
-
-<div id="myCarousel" class="carousel mt-5 slide mb-6" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
-    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
-    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
-    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
-    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="8" aria-label="Slide 9"></button>
-    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="9" aria-label="Slide 10"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="carouselImage ms-5" width="20%" height="20%" src="/angular.png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-      <div class="container">
-        <div class="carousel-caption text-end">
-          <h1>Angular</h1>
-          <p class="opacity-75">ypeScript-based frontend framework for building web apps.</p>
-
+<div class="mainContainer">
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="cozy-web.jpg" class="d-block rounded-3 mx-lg-auto img-fluid" alt="Bootstrap Themes" width="500"
+          loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class=" lh-1 mb-3 bodytext">6 Years Building Scalable Web Solutions for Startups & SME's</h1>
+        <p class="bodytext lead">Freelance Full-Stack Developer for Startups, Agencies & Saas Innovaters</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button style="background-color: #67923c" type="button" class="btn bodytext  btn-md px-4 me-md-2">Explore
+            Github</button>
+          <button type="button" class="btn btn-outline-secondary btn-md px-4 bodytext">Contact Me</button>
         </div>
       </div>
     </div>
-    <div class="carousel-item">
-      <img class="carouselImage ms-5" width="20%" height="20%" src="/react.png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-      <div class="container">
-        <div class="carousel-caption text-end">
-          <h1>React</h1>
-          <p>Frontend JavaScript library for building dynamic user interfaces.</p>
-
-        </div>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img class="carouselImage ms-5" width="20%" height="20%" src="/java.png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-      <div class="container">
-        <div class="carousel-caption text-end">
-          <h1>Java</h1>
-          <p>Versatile, object-oriented language for web, mobile, and enterprise applications.</p>
-        </div>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img class="carouselImage ms-5" width="20%" height="20%" src="/docker.png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-      <div class="container">
-        <div class="carousel-caption text-end">
-          <h1>Docker Containers</h1>
-          <p>Containerization platform for deploying applications efficiently.</p>
-        </div>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img class="carouselImage ms-5" width="20%" height="20%" src="/sql.png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-      <div class="container">
-        <div class="carousel-caption text-end">
-          <h1>SQL Server</h1>
-          <p>Language for managing and querying relational databases.</p>
-        </div>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img class="carouselImage ms-5" width="20%" height="20%" src="/android.png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-      <div class="container">
-        <div class="carousel-caption text-end">
-          <h1>Android Development</h1>
-          <p>Creating mobile apps using Java/Kotlin for Android devices.</p>
-        </div>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img class="carouselImage ms-5" width="20%" height="20%" src="/php.png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-      <div class="container">
-        <div class="carousel-caption text-end">
-          <h1>PHP</h1>
-          <p>Server-side scripting language for dynamic web development.</p>
-        </div>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img class="carouselImage ms-5" width="36%" height="36%" src="/laravel.png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-      <div class="container">
-        <div class="carousel-caption text-end">
-          <h1>Laravel</h1>
-          <p>PHP framework for building modern web applications.</p>
-        </div>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img class="carouselImage ms-5" width="20%" height="20%" src="/wordpress.png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-      <div class="container">
-        <div class="carousel-caption text-end">
-          <h1>Wordpress</h1>
-          <p> CMS for building and managing websites easily.</p>
-        </div>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img class="carouselImage ms-5 rounded-4" width="20%" height="20%" src="/mongodb.png" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-      <div class="container">
-        <div class="carousel-caption text-end">
-          <h1>MongoDB</h1>
-          <p>NoSQL database for scalable and flexible data storage.</p>
-        </div>
+    <div class="d-flex align-items-center flex-wrap">
+      <p class="bodytext">Tech Stack</p>
+      <p class="me-5 ms-1"> worked with</p>
+      <div class="d-flex flex-row gap-2">
+        <img class="me-4" src="angular.png" width="50px" alt="">
+        <img class="me-4" src="react.png" width="50px" alt="">
+        <img class="me-4" src="java.png" width="50px" alt="">
+        <img class="me-4" src="laravel.png" width="70px" alt="">
+        <img class="me-4" src="android.png" width="50px" alt="">
+        <img class="me-4 rounded" src="mongodb.png" width="50px" alt="">
+        <img class="me-4" src="php.png" width="50px" alt="">
+        <img class="me-4" src="wordpress.png" width="50px" alt="">
+        <img class="me-4" src="docker.png" width="50px" alt="">
+        <img class="me-4" src="bootstrap.png" width="50px" alt="">
       </div>
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
 </div>
+<!-- About Me Container -->
+<div class="aboutme mb-0">
+  <div class="container py-5" id="custom-cards">
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+      <div class="col">
+        <div class="card  rounded-4 shadow-lg" style="background-image: url('/me.jpg'); height: 600px;">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <img src="/whitelightning-500x500.png" alt="Bootstrap" width="32" height="32"
+                  class="rounded-circle border border-white">
+              </li>
+              <li class="d-flex bg-dark rounded align-items-center me-3">
+                <img src="/whitelightning-500x500.png" class="bi me-2" width="1em" height="1em">
+                <a href="https://github.com/WhitelightningDev" target="_blank" style="text-decoration: none;"
+                  class="text-light"> <small class="me-2">View my last Commit</small></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg" style="background-color: #f2f5ef">
+          <div class="d-flex flex-column h-100 p-4 pb-3 text-white text-shadow-1">
+            <h4 class="bodytext mt-1 mb-5 lh-2">I am more Than a Developer-Your Partner in Scaling Ideas.</h4>
+            <p class="bodytextaboutme mt-5">With 6 years in Web Development, I've built Scalable
+              apps for startups like Jet ski and more and delivered high-quality
+              solutions for agencies like AEM, ensuring
+              performnce, security, seamless user experiences.
+            </p>
+            <p class="bodytextaboutme">
+              I believe in writing clean, scalable code and fostering
+              clear communication. No unnecessary jargon-just efficient development, problem-solving,
+              and delivering real-world results.
+            </p>
+            <p class="bodytextaboutme">
+              Beyond coding, i collaborate with like minded coders, sharing indusry insights.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card border h-100 p-2  shadow-lg" style="background-color: #f2f5ef">
+          <div class="list-group">
+            <a href="#" class="list-group-item rounded list-group-item-action d-flex mb-5 mt-5 gap-3 py-3"
+              aria-current="true">
+              <img src="rentozalogo.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+              <div class="d-flex gap-2 w-100 justify-content-between">
+                <div>
+                  <h6 class="mb-0">Front-End Developer</h6>
+                  <p class="mb-0 opacity-75">Rentoza</p>
+                </div>
+                <small class="opacity-50 text-nowrap">2025 - now</small>
+              </div>
+            </a>
+            <a href="#" class="list-group-item rounded list-group-item-action d-flex mb-5 gap-3 py-3"
+              aria-current="true">
+              <img src="mabbureaulogo.jpeg" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+              <div class="d-flex gap-2 w-100 justify-content-between">
+                <div>
+                  <h6 class="mb-0">Developer</h6>
+                  <p class="mb-0 opacity-75">MAB Bureau</p>
+                </div>
+                <small class="opacity-50 text-nowrap">2024 - 2025 March</small>
+              </div>
+            </a>
+            <a href="#" class="list-group-item mb-5 mt-4 rounded list-group-item-action d-flex gap-3 py-3"
+              aria-current="true">
+              <img src="mycooplogo.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+              <div class="d-flex gap-2 w-100 justify-content-between">
+                <div>
+                  <h6 class="mb-0">Intern Developer</h6>
+                  <p class="mb-0 opacity-75">My Co-op</p>
+                </div>
+                <small class="opacity-50 text-nowrap">2020 - 2023</small>
+              </div>
+            </a>
+            <a href="#" class="list-group-item mt-3 rounded list-group-item-action d-flex gap-3 py-3"
+              aria-current="true">
+              <img src="jetskilogo.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+              <div class="d-flex gap-2 w-100 justify-content-between">
+                <div>
+                  <h6 class="mb-0">Web Developer</h6>
+                  <p class="mb-0 opacity-75">Jet Ski and More</p>
+                </div>
+                <small class="opacity-50 text-nowrap">2021 - now</small>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col col-lg-4 col-sm-12">
+        <div class="card border h-100 p-2  shadow-lg" style="background-color: #f2f5ef">
+          <div class="list-group">
+            <a href="#" class="list-group-item rounded list-group-item-action d-flex mb-1 mt-2 gap-3 py-3"
+              aria-current="true">
+              <img src="foundyourpet.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+              <div class="d-flex gap-2 w-100 justify-content-between">
+                <div>
+                  <h6 class="mb-0">Found Your Pet</h6>
+                  <p class="mb-0 opacity-75">Full-Stack</p>
+                </div>
+                <a href="https://foundyourpet.vercel.app" target="_blank"><button style="background-color: #67923c"
+                    class="btn opacity-50 text-nowrap"><img src="next.png" width="20px" alt=""></button>
+                </a>
+              </div>
+            </a>
+            <a href="#" class="list-group-item rounded list-group-item-action d-flex mb-2 gap-3 py-3"
+              aria-current="true">
+              <img src="kingslogo.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+              <div class="d-flex gap-2 w-100 justify-content-between">
+                <div>
+                  <h6 class="mb-0">Developer</h6>
+                  <p class="mb-0 opacity-75">MAB Bureau</p>
+                </div>
+                <a href="https://kiings.vercel.app" target="_blank"><button style="background-color: #67923c"
+                    class="btn opacity-50 text-nowrap"><img src="next.png" width="20px" alt=""></button></a>
+              </div>
+            </a>
+            <a href="#" class="list-group-item mb-2 rounded list-group-item-action d-flex gap-3 py-3"
+              aria-current="true">
+              <img src="mycooplogo.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+              <div class="d-flex gap-2 w-100 justify-content-between">
+                <div>
+                  <h6 class="mb-0">Intern Developer</h6>
+                  <p class="mb-0 opacity-75">My Co-op</p>
+                </div>
+                <a href="https://foundyourpet.vercel.app" target="_blank"><button style="background-color: #67923c"
+                    class="btn opacity-50 text-nowrap"><img src="next.png" width="20px" alt=""></button></a>
+              </div>
+            </a>
+            <a href="#" class="list-group-item  rounded list-group-item-action d-flex gap-3 py-3" aria-current="true">
+              <img src="jetskilogo.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+              <div class="d-flex gap-2 w-100 justify-content-between">
+                <div>
+                  <h6 class="mb-0">Web Developer</h6>
+                  <p class="mb-0 opacity-75">Jet Ski and More</p>
+                </div>
+                <a href="https://foundyourpet.vercel.app" target="_blank"><button style="background-color: #67923c"
+                    class="btn opacity-50 text-nowrap"><img src="next.png" width="20px" alt=""></button></a>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-lg-8">
+        <img src="jetskiwebpage.JPG" class="d-block rounded-3 mx-lg-auto img-fluid" alt="Bootstrap Themes" width="900"
+          height="900" loading="lazy">
+      </div>
+
+      <div class="col-lg-12 col-sm-12 col-md-12">
+        <mat-card class="border" style="background-color: #f2f5ef"  appearance="outlined">
+          <mat-card-content>
+            <mat-card-title>Get Hassel Free - From Concept to launch</mat-card-title>
+            <p class="cardtext">A streamlined 6-step process refined over 6 years and 60 projects.</p>
+            <div class="row row-cols-1 row-cols-lg-6 align-items-stretch g-4 py-5">
+              <div class="col">
+                <mat-card class="blockTitle p-2">
+                  <mat-card-title class="mt-2">
+                    <img src="/notion.png" width="20" height="20" alt="Discovery Icon"> Discovery
+                    <small class="opacity-50 text-nowrap">01</small>
+                  </mat-card-title>
+                  <p class="mt-4 cardtext">Align on goals, scope, and timeline</p>
+                </mat-card>
+              </div>
+
+              <div class="col">
+                <mat-card class="blockTitle p-2">
+                  <mat-card-title class="mt-2">
+                    <img src="/miro.png" width="20" height="20" class=" rounded" alt="Discovery Icon"> Planning
+                    <small class="opacity-50 text-nowrap">02</small>
+                  </mat-card-title>
+                  <p class="mt-5 cardtext">Milestones, and deliverables</p>
+                </mat-card>
+              </div>
+
+              <div class="col">
+                <mat-card class="blockTitle p-2">
+                  <mat-card-title class="mt-2">
+                    <img src="/figma.png" width="22" height="20" class="me-20" alt="Discovery Icon"> Design
+                    <small class="opacity-50 text-nowrap">03</small>
+                  </mat-card-title>
+                  <p class="mt-5 cardtext">Mockups, interactions, and feedback rounds</p>
+                </mat-card>
+              </div>
+
+              <div class="col">
+                <mat-card class="blockTitle p-2">
+                  <mat-card-title class="mt-2">
+                    <img src="/logo.png" width="20" height="20" class="me-2" alt="Discovery Icon"> Build
+                    <small class="opacity-50 text-nowrap">04</small>
+                  </mat-card-title>
+                  <p class="mt-5 cardtext">Sprint-driven coding with weekly demos.</p>
+                </mat-card>
+              </div>
+
+              <div class="col">
+                <mat-card class="blockTitle p-2">
+                  <mat-card-title class="mt-2">
+                    <img src="/postman.png" width="20" height="20" class="me-2" alt="Discovery Icon"> Test
+                    <small class="opacity-50 text-nowrap">05</small>
+                  </mat-card-title>
+                  <p class="mt-5 cardtext">Performance checks, Bugfixes, UX polish</p>
+                </mat-card>
+              </div>
+
+              <div class="col">
+                <mat-card class="blockTitle p-2">
+                  <mat-card-title class="mt-2 mb-3">
+                    <img src="/vercel.png" width="20" height="20" class="me-2" alt="Discovery Icon"> Launch
+                    <small class="rounded opacity-50 text-nowrap">06</small>
+                  </mat-card-title>
+                  <p class="mt-5 cardtext">Go live, docs and support</p>
+                </mat-card>
+              </div>
+
+            </div>
+          </mat-card-content>
+          <div class="col-lg-12">
+              <p class="p-3">No black boxes - I'll share every commit, Figma file, and test report.<button class="ms-5 row rounded-3 mx-lg-auto img-fluid" mat-button> Download process</button></p>
+          </div>
+        </mat-card>
+      </div>
+      <div class="col-lg-12 col-sm-12 col-md-12">
+        <div class="row row-cols-1 row-cols-lg-4 align-items-stretch g-4 py-5">
+          <div class="col">
+            <mat-card class="border p-3" style="background-color: #f2f5ef"  appearance="outlined">
+              <mat-card-title class=" blockheadings">
+                Need to validate your idea vefore rundings run out?
+              </mat-card-title>
+              <p class="prompttext pt-1">Launch Your MVP in 4-6 weeks</p>
+                <li class="no-bullets mb-4 "><img src="/checked.png" width="15px" alt=""> Full-Stack development (React + Node.js)</li>
+                <li class="no-bullets mb-3"><img src="/checked.png" width="15px" alt=""> Scalable architecture for future growth</li>
+                <li class="no-bullets mb-3"><img src="/checked.png" width="15px" alt=""> Weekly progress demos</li>
+                <button style="background-color: #67923c" type="button" class="btn bodytext text-light btn-md px-4 me-md-2">Hire me</button>
+                </mat-card>
+          </div>
+          <div class="col">
+            <mat-card class="border p-3" style="background-color: #f2f5ef"  appearance="outlined">
+              <mat-card-title class=" blockheadings">
+                Overwhelmed with client deadlines?
+              </mat-card-title>
+              <p class="prompttext pt-1">Scale Your Team On-Demand</p>
+                <li class="no-bullets mb-4 "><img src="/checked.png" width="15px" alt=""> Seamless Git collaboration</li>
+                <li class="no-bullets mb-4"><img src="/checked.png" width="15px" alt=""> 48-hour turnaround for critical fixes</li>
+                <li class="no-bullets mb-4"><img src="/checked.png" width="15px" alt=""> Slack/Teams integration</li>
+                <button style="background-color: #67923c" type="button" class="btn bodytext text-light btn-md px-4 me-md-2">Hire me</button>
+                </mat-card>
+          </div>
+          <div class="col">
+            <mat-card class="border p-3" style="background-color: #f2f5ef"  appearance="outlined">
+              <mat-card-title class=" blockheadings">
+                Struggling to update your site without a dev team?
+              </mat-card-title>
+              <p class="prompttext pt-1">Affordable CMS Solutions</p>
+                <li class="no-bullets mb-4 "><img src="/checked.png" width="15px" alt=""> Drag-and-drop CMS training</li>
+                <li class="no-bullets mb-4"><img src="/checked.png" width="15px" alt=""> Donation integration (Stripe/Paypal)</li>
+                <li class="no-bullets mb-4"><img src="/checked.png" width="15px" alt=""> 30% discount for registered non-profits</li>
+                <button style="background-color: #67923c" type="button" class="btn bodytext text-light btn-md px-4 me-md-2">Hire me</button>
+                </mat-card>
+          </div>
+          <div class="col">
+            <mat-card class="border p-3" style="background-color: #f2f5ef"  appearance="outlined">
+              <mat-card-title class=" blockheadings">
+                Cant differentiate your brand?
+              </mat-card-title>
+              <p class="prompttext pt-1">Stand Out in Crowded Markets</p>
+                <li class="no-bullets mb-4 "><img src="/checked.png" width="15px" alt=""> Custome UI/UX development</li>
+                <li class="no-bullets mb-4"><img src="/checked.png" width="15px" alt=""> SEO-optimization performance/li>
+                <li class="no-bullets mb-4"><img src="/checked.png" width="15px" alt=""> Lifetime code ownership</li>
+                <button style="background-color: #67923c" type="button" class="btn bodytext text-light btn-md px-4 me-md-2">Hire me</button>
+                </mat-card>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
