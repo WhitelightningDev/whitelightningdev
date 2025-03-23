@@ -10,48 +10,56 @@
     {
       "src": "/whitelightning-500x500.png",
       "sizes": "72x72",
+      "style": "border-radius: 20px",
       "type": "image/png",
       "purpose": "maskable any"
     },
     {
       "src": "/whitelightning-500x500.png",
       "sizes": "96x96",
+      "style": "border-radius: 20px",
       "type": "image/png",
       "purpose": "maskable any"
     },
     {
       "src": "whitelightning-500x500.png",
       "sizes": "128x128",
+      "style": "border-radius: 20px",
       "type": "image/png",
       "purpose": "maskable any"
     },
     {
       "src": "whitelightning-500x500.png",
       "sizes": "144x144",
+      "style": "border-radius: 20px",
       "type": "image/png",
       "purpose": "maskable any"
     },
     {
       "src": "whitelightning-500x500.png",
       "sizes": "152x152",
+      "style": "border-radius: 20px",
       "type": "image/png",
       "purpose": "maskable any"
     },
     {
       "src": "whitelightning-500x500.png",
       "sizes": "192x192",
+      "style": "border-radius: 20px",
       "type": "image/png",
       "purpose": "maskable any"
     },
     {
       "src": "whitelightning-500x500.png",
       "sizes": "384x384",
+      "style": "border-radius: 20px",
       "type": "image/png",
       "purpose": "maskable any"
     },
     {
       "src": "whitelightning-500x500.png",
       "sizes": "512x512",
+      "style": "border-radius: 20px",
       "type": "image/png",
       "purpose": "maskable any"
     }
