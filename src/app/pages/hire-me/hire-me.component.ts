@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { HttpClient } from '@angular/common/http';
+
 
 @Component({
   selector: 'app-hire-me',
@@ -31,7 +31,7 @@ export class HireMeComponent {
   budgetForm: FormGroup;
   additionalServicesForm: FormGroup;
 
-  constructor(private fb: FormBuilder, private router: Router, private http: HttpClient) {
+  constructor(private fb: FormBuilder, private router: Router) {
     // Step 1: Basic Information
     this.basicInfoForm = this.fb.group({
       fullName: ['', Validators.required],
@@ -82,23 +82,9 @@ export class HireMeComponent {
       ...this.budgetForm.value,
       ...this.additionalServicesForm.value
     };
-
     console.log("Form Submitted: ", formData);
 
-    // Simulate an API submission (replace with your actual API endpoint)
-    this.http.post('YOUR_API_ENDPOINT_HERE', formData).subscribe(
-      (response) => {
-        console.log('Form submitted successfully:', response);
-
-        // If submission is successful, navigate to the success page
-        this.router.navigate(['/submitSuccess']);
-      },
-      (error) => {
-        console.error('Form submission error:', error);
-
-        // If an error occurs, navigate to the error page
-        this.router.navigate(['/oopsSubmittionError']);
-      }
-    );
+    // Navigate to the submitSuccess page after form submission
+    this.router.navigate(['/submitSuccess']);
   }
 }
