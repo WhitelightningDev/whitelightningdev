@@ -1,0 +1,28 @@
+<h2 mat-dialog-title class="dialog-title">Contact Me</h2>
+<mat-dialog-content>
+  <p class="dialog-description">Select how you'd like to reach me:</p>
+
+  <div class="contact-options">
+    <ul>
+      <li>
+        <a href="tel:+27746588885" class="contact-item">
+          <img src="phone-call.png" width="20px" alt="Phone" class="icon"> Call Me
+        </a>
+      </li>
+      <li>
+        <a href="https://api.whatsapp.com/send?phone=27746588885" target="_blank" class="contact-item">
+          <img src="whatsapp.png" width="20px" alt="WhatsApp" class="icon"> WhatsApp Me
+        </a>
+      </li>
+      <li>
+        <a href="mailto:danielmommsen2@gmail.com" class="contact-item">
+          <img src="email.png" width="20px" alt="Email" class="icon"> Email Me
+        </a>
+      </li>
+    </ul>
+  </div>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+  <button mat-button class="close-btn" (click)="closeDialog()">Close</button>
+</mat-dialog-actions>

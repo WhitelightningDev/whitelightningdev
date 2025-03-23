@@ -2,7 +2,7 @@
 .card {
   margin: auto;
   width: min(300px, 100%);
-  background-color: #fefefe;
+  background-color: #ebeedb;
   border-radius: 1rem;
   padding: 0.5rem;
   color: #141417;
@@ -64,7 +64,7 @@
   text-align: center;
   padding: 0.5rem 1.25rem;
   border-radius: 1rem;
-  background-color: #141417;
+  background-color: #67923c;
   color: #fff;
   font-size: 1rem;
 }
@@ -72,4 +72,9 @@
   .card__btn {
     width: max-content;
   }
+}
+
+
+.portCards{
+  background-color: white;
 }
