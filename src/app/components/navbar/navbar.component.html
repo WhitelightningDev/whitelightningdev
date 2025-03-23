@@ -1,16 +1,22 @@
-
 <div class="mainContainer fixed rounded-4">
-  <nav class="m-3 navbar rounded-4 navbar-expand navbar-light  sticky-top" aria-label="Second navbar example">
+  <nav class="m-3 navbar navbar-expand-lg navbar-light sticky-top rounded-4" aria-label="Main Navigation">
     <div class="container-fluid rounded-4">
-      <img style="width: 50px;" class="rounded-4" src="/whitelightning-500x500.png" alt="Logo">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample02"
-        aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
+
+      <!-- Logo -->
+      <a class="navbar-brand" href="#">
+        <img src="/whitelightning-500x500.png" alt="Logo" width="50" class="rounded-4">
+      </a>
+
+      <!-- Navbar Toggle Button (for Mobile) -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="ms-5 collapse navbar-collapse" id="navbarsExample02">
+      <!-- Navbar Links -->
+      <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item ">
+          <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
@@ -20,9 +26,11 @@
             <a class="nav-link" href="/portfolio">Portfolio</a>
           </li>
         </ul>
-        <form role="search">
-          <button class="hiremebutton btn  btn-md px-4 me-md-2">Hire Me</button>
-        </form>
+
+        <!-- Hire Me Button -->
+        <div class="d-flex ms-lg-3 mt-2 mt-lg-0">
+          <button class="hiremebutton btn btn-md px-4">Hire Me</button>
+        </div>
       </div>
     </div>
   </nav>
