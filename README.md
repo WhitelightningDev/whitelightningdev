@@ -36,8 +36,8 @@
 ---
 
 ## 📫 Connect with Me
-- **GitHub:** [Your GitHub Profile Link]  
-- **Portfolio:** [[Your Portfolio Link]](https://www.linkedin.com/in/daniel-mommsen-a51b15253/)  
-- **LinkedIn:** https://www.linkedin.com/in/daniel-mommsen-a51b15253/  
+- **GitHub:** [[GitHub Profile Link]  ](https://github.com/WhitelightningDev)
+- **Portfolio:** [[Portfolio]](https://whitelightningdev.vercel.app/)  
+- **LinkedIn:** [[Linkedin] ](https://www.linkedin.com/in/daniel-mommsen-a51b15253/) 
 
 💡 Always open to **collaborations**, **freelance work**, and **exciting projects**!
