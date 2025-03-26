@@ -1,59 +1,43 @@
-# Whitelightningde
+# 👋 Hi, I'm Daniel – Full-Stack Developer
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.3.
+🚀 Full Stack Developer with **3+ years** of full-stack experience and **5+ years** of front-end expertise, specializing in **MERN & MEAN stacks**. Passionate about building **scalable, high-performance applications** with a focus on **DevOps, cloud deployment, and UI/UX**.
 
-## Development server
+🔹 **Optimized API performance** (30% faster)  
+🔹 **Enhanced UI engagement** (25% increase)  
+🔹 **Automated CI/CD pipelines** (40% efficiency gain)  
 
-To start a local development server, run:
+---
 
-```bash
-ng serve
-```
+## 🔧 Technical Skills
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+### 🖌 Front-End Development
+- **Frameworks:** React, Angular, Next.js, Vue.js  
+- **Languages:** HTML5, CSS3, JavaScript (ES6+), TypeScript  
+- **UI Libraries:** Bootstrap, Material UI  
+- **Design Tools:** Figma, Miro, Adobe XD  
 
-## Code scaffolding
+### ⚙️ Back-End Development
+- **Languages & Frameworks:** Node.js, Express.js, Python  
+- **API Development:** RESTful APIs, GraphQL  
+- **Databases:** MongoDB, SQL, MySQL, PostgreSQL  
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+### 📱 Mobile Development
+- **Android:** Java, Kotlin  
+- **Cross-Platform:** Flutter Flow  
 
-```bash
-ng generate component component-name
-```
+### 🏗 Web Architecture & DevOps
+- **CI/CD:** Jenkins, GitHub Actions  
+- **Version Control:** Git, GitHub, GitLab, Bitbucket  
+- **Cloud & Hosting:** AWS, Heroku, Vercel, Render  
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### ✅ Software Testing & QA
+- **Testing Frameworks:** Jest, JUnit, Cypress  
 
-```bash
-ng generate --help
-```
+---
 
-## Building
+## 📫 Connect with Me
+- **GitHub:** [Your GitHub Profile Link]  
+- **Portfolio:** [[Your Portfolio Link]](https://www.linkedin.com/in/daniel-mommsen-a51b15253/)  
+- **LinkedIn:** https://www.linkedin.com/in/daniel-mommsen-a51b15253/  
 
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+💡 Always open to **collaborations**, **freelance work**, and **exciting projects**!
