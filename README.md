@@ -67,7 +67,11 @@ My focus is not just writing code — but engineering systems that scale, remain
 
 ## 📂 Highlighted Projects
 
-**FildFlow:** "https://github.com/WhitelightningDev/fieldflow-billing" - FieldFlow Billing is a Vite + React + Supabase field-service dashboard for trade businesses, with a strong focus on plumbing, electrical, applicance repair and Refrigeration operations (dispatch, service calls, compliance, inventory usage, and billing visibility). 
+**FieldFlow:** FieldFlow Billing is a Vite + React + Supabase field-service dashboard for trade businesses, with a strong focus on plumbing, electrical, applicance repair and Refrigeration operations (dispatch, service calls, compliance, inventory usage, and billing visibility). - https://github.com/WhitelightningDev/fieldflow-billing
+
+**Found your pet:** FoundYourPet is a comprehensive pet safety and management application that connects pet owners with a smart tagging system. Designed to keep your pets safe, the platform allows you to register your pets, manage their profiles, subscribe to tag packages, and even generate QR codes for quick identification and recovery. - https://github.com/WhitelightningDev/foundyourpet
+
+
 
 ### Field Service SaaS Platform
 Multi-tenant dispatch system with live technician tracking, job cards, and profitability dashboards.  
