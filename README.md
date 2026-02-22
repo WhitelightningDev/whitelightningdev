@@ -1,43 +1,68 @@
-# 👋 Hi, I'm Daniel – Full-Stack Developer
+👋 Daniel Mommsen
 
-🚀 Full Stack Developer with **3+ years** of full-stack experience and **5+ years** of front-end expertise, specializing in **MERN & MEAN stacks**. Passionate about building **scalable, high-performance applications** with a focus on **DevOps, cloud deployment, and UI/UX**.
+Full-Stack Systems Engineer | SaaS Architect | Angular • React • GCP 
 
-🔹 **Optimized API performance** (30% faster)  
-🔹 **Enhanced UI engagement** (25% increase)  
-🔹 **Automated CI/CD pipelines** (40% efficiency gain)  
+I design and build production-grade SaaS platforms with real-time synchronization, scalable backend architecture, and cloud-native deployment pipelines.
 
----
+My focus is not just writing code — but engineering systems that scale, remain maintainable, and perform under real-world load.
 
-## 🔧 Technical Skills
+What I Build
+	•	Real-time field service platforms
+	•	Fintech & transactional web applications
+	•	Multi-tenant SaaS systems
+	•	Cloud-deployed frontend + API ecosystems
+	•	Android mobile applications
 
-### 🖌 Front-End Development
-- **Frameworks:** React, Angular, Next.js, Vue.js  
-- **Languages:** HTML5, CSS3, JavaScript (ES6+), TypeScript  
-- **UI Libraries:** Bootstrap, Material UI  
-- **Design Tools:** Figma, Miro, Adobe XD  
+  Engineering Approach
+	•	Architect before coding
+	•	Separate concerns (UI ↔ domain ↔ infrastructure)
+	•	Enforce data integrity (RLS, indexing, constraints)
+	•	Automate deployment pipelines
+	•	Optimize performance at both API and UI layers
 
-### ⚙️ Back-End Development
-- **Languages & Frameworks:** Node.js, Express.js, Python  
-- **API Development:** RESTful APIs, GraphQL  
-- **Databases:** MongoDB, SQL, MySQL, PostgreSQL  
+  Recent measurable improvements delivered:
+	•	⚡ Reduced API response times by 30% via query optimization and indexing
+	•	📈 Improved UI interaction flow increasing engagement by 25%
+	•	🔁 Implemented CI/CD pipelines reducing deployment overhead by 40%
 
-### 📱 Mobile Development
-- **Android:** Java, Kotlin  
-- **Cross-Platform:** Flutter Flow  
+Core Tech Stack
 
-### 🏗 Web Architecture & DevOps
-- **CI/CD:** Jenkins, GitHub Actions  
-- **Version Control:** Git, GitHub, GitLab, Bitbucket  
-- **Cloud & Hosting:** AWS, Heroku, Vercel, Render  
+Frontend
 
-### ✅ Software Testing & QA
-- **Testing Frameworks:** Jest, JUnit, Cypress  
+Angular (Standalone Components)
+React + TypeScript
+Next.js
+RxJS
+TanStack Query / Router
 
----
+Backend
 
-## 📫 Connect with Me
-- **GitHub:** [[GitHub Profile Link]  ](https://github.com/WhitelightningDev)
-- **Portfolio:** [[Portfolio]](https://whitelightningdev.vercel.app/)  
-- **LinkedIn:** [[Linkedin] ](https://www.linkedin.com/in/daniel-mommsen-a51b15253/) 
+Node.js / Express
+Python
+REST & GraphQL APIs
+Authentication & Authorization (JWT, RLS)
 
-💡 Always open to **collaborations**, **freelance work**, and **exciting projects**!
+Databases
+
+PostgreSQL
+MongoDB
+MySQL
+
+Cloud & DevOps
+
+Google Cloud Platform
+AWS
+Vercel
+GitHub Actions
+Docker
+
+Mobile
+
+Android (Java / Kotlin)
+
+Highlighted Projects
+
+### Field Service SaaS Platform
+Multi-tenant dispatch system with live technician tracking, job cards, and profitability dashboards.
+
+Stack: Angular, Supabase/Postgres, GCP
