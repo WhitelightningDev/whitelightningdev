@@ -1,98 +1,159 @@
-# 👋 Daniel Mommsen  
-### Full-Stack Systems Engineer | SaaS Architect | Angular • React • GCP
+<div align="center">
 
-I design and build **production-grade SaaS platforms** with real-time synchronization, scalable backend architecture, and cloud-native deployment pipelines.
+# 👋 Hi, I'm Daniel Mommsen
 
-My focus is not just writing code — but engineering systems that scale, remain maintainable, and perform under real-world load.
+### Full-Stack Systems Engineer • SaaS Architect • Cloud-Native Builder
 
----
+<img src="https://komarev.com/ghpvc/?username=WhitelightningDev&label=Profile%20Views&color=0e75b6&style=flat" alt="profile views" />
 
-## 🚀 What I Build
-
-- Real-time field service platforms  
-- Fintech & transactional web applications  
-- Multi-tenant SaaS systems  
-- Cloud-deployed frontend + API ecosystems  
-- Android mobile applications  
+</div>
 
 ---
 
-## 🏗 Engineering Approach
+## ⚡ When I Build, I Work With
 
-- Architect before coding  
-- Separate concerns (UI ↔ Domain ↔ Infrastructure)  
-- Enforce data integrity (RLS, indexing, constraints)  
-- Automate deployment pipelines  
-- Optimize performance at both API and UI layers  
+<p align="left">
 
-### Recent Impact
+<img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" />
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+<img src="https://img.shields.io/badge/RxJS-B7178C?style=for-the-badge&logo=reactivex&logoColor=white" />
+<img src="https://img.shields.io/badge/TanStack_Query-FF4154?style=for-the-badge&logo=react-query&logoColor=white" />
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/Supabase-181818?style=for-the-badge&logo=supabase&logoColor=3ECF8E" />
+<img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
+<img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" />
+<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
 
-- ⚡ Reduced API response times by **30%** via query optimization and indexing  
-- 📈 Improved UI interaction flow resulting in **25% higher engagement**  
-- 🔁 Implemented CI/CD pipelines reducing deployment overhead by **40%**  
-
----
-
-## 🔧 Core Tech Stack
-
-### Frontend
-- Angular (Standalone Components)
-- React + TypeScript
-- Next.js
-- RxJS
-- TanStack Query / Router
-
-### Backend
-- Node.js / Express
-- Python
-- REST & GraphQL APIs
-- Authentication & Authorization (JWT, RLS)
-
-### Databases
-- PostgreSQL
-- MongoDB
-- MySQL
-
-### Cloud & DevOps
-- Google Cloud Platform (GCP)
-- AWS
-- Vercel
-- GitHub Actions
-- Docker
-
-### Mobile
-- Android (Java / Kotlin)
+</p>
 
 ---
 
-## 📂 Highlighted Projects
+# 🏗 Engineering Philosophy
 
-**FieldFlow:** FieldFlow Billing is a Vite + React + Supabase field-service dashboard for trade businesses, with a strong focus on plumbing, electrical, applicance repair and Refrigeration operations (dispatch, service calls, compliance, inventory usage, and billing visibility). - https://github.com/WhitelightningDev/fieldflow-billing
+I build systems designed for:
 
-**Found your pet:** FoundYourPet is a comprehensive pet safety and management application that connects pet owners with a smart tagging system. Designed to keep your pets safe, the platform allows you to register your pets, manage their profiles, subscribe to tag packages, and even generate QR codes for quick identification and recovery. - https://github.com/WhitelightningDev/foundyourpet
+- Scalability  
+- Maintainability  
+- Real-world operational load  
+- Multi-tenant architecture  
+- Long-term product evolution  
 
-
-
-### Field Service SaaS Platform
-Multi-tenant dispatch system with live technician tracking, job cards, and profitability dashboards.  
-**Stack:** Angular, Supabase/PostgreSQL, GCP
-
-### Fintech Web Application
-Transaction-driven web platform with authentication, API integration, and scalable UI architecture.  
-**Stack:** Angular, REST APIs, Cloud Deployment
-
-### Asset Management System
-Inventory and asset tracking platform with role-based access and real-time updates.  
-**Stack:** React, Node.js, PostgreSQL
+My focus is engineering platforms — not just shipping interfaces.
 
 ---
 
-## 📫 Connect
+# 🚀 Highlighted Platforms
 
-- **GitHub:** https://github.com/WhitelightningDev  
-- **Portfolio:** https://whitelightningdev.vercel.app/  
-- **LinkedIn:** https://www.linkedin.com/in/daniel-mommsen-a51b15253/
+## 🔧 FieldFlow
+
+Multi-tenant field service SaaS platform for trade businesses.
+
+### Features
+
+- Dispatch & scheduling
+- Digital job cards
+- Inventory tracking
+- Technician mobile workflows
+- Billing & reporting
+- Real-time operational visibility
+
+**Stack:** React • TypeScript • Supabase • PostgreSQL • GCP
+
+🔗 https://github.com/WhitelightningDev/fieldflow-billing
 
 ---
 
-💡 Open to collaboration, SaaS partnerships, and high-impact engineering opportunities.
+## 🐾 FoundYourPet
+
+Smart pet safety & recovery platform with QR-enabled identification.
+
+### Features
+
+- Pet profile management
+- QR recovery flows
+- Subscription handling
+- Tag package management
+- Owner contact systems
+
+**Stack:** Angular • PostgreSQL • Cloud APIs
+
+🔗 https://github.com/WhitelightningDev/foundyourpet
+
+---
+
+# 📊 Engineering Impact
+
+- ⚡ Reduced API response times by **30%**
+- 📈 Increased platform engagement by **25%**
+- 🔁 Reduced deployment overhead by **40%**
+- ☁️ Built scalable cloud-native deployment pipelines
+- 🏗 Designed maintainable multi-tenant SaaS architecture
+
+---
+
+# 📈 GitHub Statistics
+
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=WhitelightningDev&show_icons=true&theme=tokyonight&hide_border=true" />
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=WhitelightningDev&layout=compact&theme=tokyonight&hide_border=true"/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=WhitelightningDev&theme=tokyonight&hide_border=true" />
+
+</div>
+
+---
+
+# 🌍 Connect With Me
+
+<p align="left">
+
+<a href="https://github.com/WhitelightningDev">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://www.linkedin.com/in/daniel-mommsen-a51b15253/">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="https://whitelightningdev.vercel.app/">
+  <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
+
+</p>
+
+---
+
+# 🏆 GitHub Trophies
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=WhitelightningDev&theme=tokyonight&no-frame=true&row=1&column=6" />
+
+</div>
+
+---
+
+# 🐍 Contribution Snake
+
+<div align="center">
+
+![snake gif](https://github.com/WhitelightningDev/WhitelightningDev/blob/output/github-contribution-grid-snake.svg)
+
+</div>
+
+---
+
+<div align="center">
+
+### 💡 Building scalable SaaS systems, enterprise platforms, and operational software.
+
+</div>
