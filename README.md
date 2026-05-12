@@ -3,7 +3,9 @@
 <!-- ========================================= -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B0F19,100:111827&height=220&section=header&text=Daniel%20Mommsen&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Systems%20Engineer%20•%20SaaS%20Architect%20•%20Cloud-Native%20Builder&descAlignY=58&descAlign=50" />
+  <img 
+    src="https://capsule-render.vercel.app/api?type=waving&height=250&text=Daniel%20Mommsen&fontAlign=50&fontAlignY=38&color=0:2563EB,50:1E3A8A,100:0F172A&fontColor=ffffff&fontSize=50&desc=Full-Stack%20Systems%20Engineer%20•%20SaaS%20Architect&descAlignY=58&animation=twinkling"
+  />
 </p>
 
 <div align="center">
