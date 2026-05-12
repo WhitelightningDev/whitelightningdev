@@ -1,3 +1,11 @@
+<!-- ========================================= -->
+<!-- ENTERPRISE BANNER -->
+<!-- ========================================= -->
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B0F19,100:111827&height=220&section=header&text=Daniel%20Mommsen&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Systems%20Engineer%20•%20SaaS%20Architect%20•%20Cloud-Native%20Builder&descAlignY=58&descAlign=50" />
+</p>
+
 <div align="center">
 
 # 👋 Hi, I'm Daniel Mommsen
@@ -7,6 +15,24 @@
 <img src="https://komarev.com/ghpvc/?username=WhitelightningDev&label=Profile%20Views&color=0e75b6&style=flat" alt="profile views" />
 
 </div>
+
+---
+
+# 🏗 About Me
+
+Production-focused software engineer building scalable SaaS platforms, operational systems, and cloud-native infrastructure.
+
+My focus is not simply building applications — but engineering maintainable systems that support real business operations, scale efficiently, and remain performant under real-world load.
+
+I specialize in:
+
+- Multi-tenant SaaS architecture
+- Cloud-native deployments
+- Real-time synchronization
+- API ecosystems
+- Operational dashboards
+- Enterprise frontend systems
+- Full-stack product ownership
 
 ---
 
@@ -27,6 +53,7 @@
 <img src="https://img.shields.io/badge/Supabase-181818?style=for-the-badge&logo=supabase&logoColor=3ECF8E" />
 <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
 <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" />
+<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" />
 <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
 <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
@@ -39,13 +66,21 @@
 
 I build systems designed for:
 
-- Scalability  
-- Maintainability  
-- Real-world operational load  
-- Multi-tenant architecture  
-- Long-term product evolution  
+- Scalability
+- Maintainability
+- Real-world operational load
+- Multi-tenant architecture
+- Long-term product evolution
+- Infrastructure resilience
+- Clean separation of concerns
 
-My focus is engineering platforms — not just shipping interfaces.
+### Core Principles
+
+- Architect before coding
+- Automate deployment pipelines
+- Optimize API and database performance
+- Build operational visibility into systems
+- Prioritize maintainability over short-term hacks
 
 ---
 
@@ -53,7 +88,7 @@ My focus is engineering platforms — not just shipping interfaces.
 
 ## 🔧 FieldFlow
 
-Multi-tenant field service SaaS platform for trade businesses.
+Production SaaS platform serving operational field-service workflows with real-time synchronization, technician management, dispatch systems, and cloud-native deployment pipelines.
 
 ### Features
 
@@ -63,8 +98,11 @@ Multi-tenant field service SaaS platform for trade businesses.
 - Technician mobile workflows
 - Billing & reporting
 - Real-time operational visibility
+- SaaS subscription architecture
 
-**Stack:** React • TypeScript • Supabase • PostgreSQL • GCP
+### Stack
+
+`React` • `TypeScript` • `Supabase` • `PostgreSQL` • `GCP`
 
 🔗 https://github.com/WhitelightningDev/fieldflow-billing
 
@@ -72,17 +110,20 @@ Multi-tenant field service SaaS platform for trade businesses.
 
 ## 🐾 FoundYourPet
 
-Smart pet safety & recovery platform with QR-enabled identification.
+Smart pet recovery and identification ecosystem with QR-enabled recovery flows, owner management, subscription systems, and cloud-connected profile infrastructure.
 
 ### Features
 
 - Pet profile management
-- QR recovery flows
+- QR recovery workflows
 - Subscription handling
-- Tag package management
-- Owner contact systems
+- Smart tagging system
+- Owner notification flows
+- Recovery ecosystem architecture
 
-**Stack:** Angular • PostgreSQL • Cloud APIs
+### Stack
+
+`Angular` • `PostgreSQL` • `Cloud APIs`
 
 🔗 https://github.com/WhitelightningDev/foundyourpet
 
@@ -94,7 +135,8 @@ Smart pet safety & recovery platform with QR-enabled identification.
 - 📈 Increased platform engagement by **25%**
 - 🔁 Reduced deployment overhead by **40%**
 - ☁️ Built scalable cloud-native deployment pipelines
-- 🏗 Designed maintainable multi-tenant SaaS architecture
+- 🏗 Designed maintainable multi-tenant SaaS systems
+- 🚀 Improved frontend performance and operational responsiveness
 
 ---
 
@@ -107,6 +149,26 @@ Smart pet safety & recovery platform with QR-enabled identification.
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=WhitelightningDev&layout=compact&theme=tokyonight&hide_border=true"/>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=WhitelightningDev&theme=tokyonight&hide_border=true" />
+
+</div>
+
+---
+
+# 🏆 GitHub Trophies
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=WhitelightningDev&theme=tokyonight&no-frame=true&row=1&column=6" />
+
+</div>
+
+---
+
+# 🐍 Contribution Snake
+
+<div align="center">
+
+![snake gif](https://github.com/WhitelightningDev/WhitelightningDev/blob/output/github-contribution-grid-snake.svg)
 
 </div>
 
@@ -132,23 +194,57 @@ Smart pet safety & recovery platform with QR-enabled identification.
 
 ---
 
-# 🏆 GitHub Trophies
+# 📌 Recommended Pinned Repositories
 
-<div align="center">
+To position yourself as a systems/product engineer instead of only a frontend developer, pin:
 
-<img src="https://github-profile-trophy.vercel.app/?username=WhitelightningDev&theme=tokyonight&no-frame=true&row=1&column=6" />
-
-</div>
+- fieldflow-billing
+- foundyourpet
+- one infrastructure/backend repository
+- one enterprise dashboard/UI repository
+- one mobile application repository
 
 ---
 
-# 🐍 Contribution Snake
+# 🚀 Recommended Next-Level Additions
 
-<div align="center">
+### Add Platform Screenshots
 
-![snake gif](https://github.com/WhitelightningDev/WhitelightningDev/blob/output/github-contribution-grid-snake.svg)
+Include:
+- dashboard screenshots
+- architecture diagrams
+- infrastructure visuals
+- workflow GIFs
 
-</div>
+This dramatically improves perceived engineering maturity.
+
+---
+
+### Add SaaS Ownership Language
+
+Instead of:
+> “developer portfolio”
+
+Position yourself as:
+> “operator building scalable software systems”
+
+Example positioning:
+
+> Production SaaS platforms serving operational workflows with real-time synchronization, multi-tenant infrastructure, and cloud-native deployment pipelines.
+
+---
+
+### Add Deployment & Scale Metrics
+
+Examples:
+- active tenants
+- deployment regions
+- CI/CD throughput
+- infrastructure uptime
+- operational dashboards
+- API request volume
+
+These create strong enterprise perception.
 
 ---
 
